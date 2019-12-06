@@ -1,0 +1,280 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>为什么买它</title>
+    <meta name="keywords" content=",为什么买它">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="{% static '/css/cms_ggw.css' %}">
+    <link rel="stylesheet" href="{% static '/css/dtk.css' %}">
+    <link rel="stylesheet" href="{% static '/css/footer.css' %}">
+    <link rel="stylesheet" href="{% static '/css/iconfont.css' %}">
+    <link rel="stylesheet" href="{% static '/css/layer.css' %}">
+    <link rel="stylesheet" href="{% static '/css/new_home.css' %}">
+    <link rel="stylesheet" href="{% static '/css/pager.css' %}">
+    <link rel="stylesheet" href="{% static '/css/pink.css' %}">
+    <link rel="stylesheet" href="{% static '/css/reset.css' %}">
+    <link rel="stylesheet" href="{% static '/css/swiper.min.css' %}">
+    <script src="{% static '/js/jquery.min.js' %}"></script>
+    <script src="{% static '/js/layer.js' %}"></script>
+	<link rel="stylesheet" href="{% static '/css/layer.css' %}" id="layui_layer_skinlayercss" style="">
+    <script src="{% static '/js/dtk.js' %}"></script>
+    <script src="{% static '/js/swiper.min.js' %}"></script>
+    <script src="{% static '/js/clipboard.min.js' %}"></script>
+    <script src="{% static '/js/ZeroClipboard.js' %}"></script>
+    <script src="{% static '/js/jquery.cookie.min.js' %}"></script>
+
+</head>
+
+<body >
+<!--顶部推荐位s-->
+{% block topad %}{% endblock %}
+<!--顶部推荐位e-->
+<div class="new_home">
+    <div id="headNav">
+        <div id="header">
+            <a class="header_logo" href="http://whybuyit.cn/index.php?r=index/index&amp;u=1341598" style=" background: url(&#39;&#39;)left top no-repeat;">
+                为什么买它            </a>
+            <div id="showList">
+                <div id="search">
+                    <input type="hidden" name="h_kw" id="h_kw" value="暖宝宝">
+                    <input type="hidden" name="h_url" id="h_url" value="/index.php?r=l">
+                    <input type="hidden" name="m_url" id="m_url" value="/index.php?r=l&amp;kw=%E6%9A%96%E5%AE%9D%E5%AE%9D&amp;introduce=1">
+                    <form action="http://whybuyit.cn/index.php?r=index/index" method="get">
+                        <input type="hidden" name="input" value="2">
+                        <input type="hidden" name="r" value="l">
+                        <input type="text" autocomplete="off" class="theme-border-color-1 my-src-input" value="" name="kw" placeholder="暖宝宝">
+                        <span class="src-close-btn"></span>
+                        <button class="theme-bg-color-1 my-src-btn">搜 索</button>
+                    </form>
+                    <div class="rec_word">
+                            <a href="http://whybuyit.cn/index.php?r=l&amp;kw=%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0&amp;hot=0" style="">三只松鼠</a>
+                            <a href="http://whybuyit.cn/index.php?r=l&amp;kw=%E5%8F%A3%E7%BA%A2&amp;hot=1" style="">口红</a>
+                            <a href="http://whybuyit.cn/index.php?r=l&amp;kw=%E7%83%AD%E6%B0%B4%E8%A2%8B&amp;hot=2" style="color:red;">热水袋</a>
+                            <a href="http://whybuyit.cn/index.php?r=l&amp;kw=%E4%BF%9D%E6%B8%A9%E6%9D%AF&amp;hot=3" style="">保温杯</a>
+                            <a href="http://whybuyit.cn/index.php?r=l&amp;kw=%E9%9B%B6%E9%A3%9F&amp;hot=4" style="color:red;">零食</a>
+                            <a href="http://whybuyit.cn/index.php?r=l&amp;kw=%E6%9A%96%E5%AE%9D%E5%AE%9D&amp;hot=5" style="">暖宝宝</a>
+                            <a href="http://whybuyit.cn/index.php?r=p&amp;hot=6" style="color:red;">超级爆款榜单</a>
+                    </div>
+                    <ul class="search-land">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <p>关闭</p>
+                    </ul>
+                </div>
+            </div>
+            <img class="head_group fr" src="{% static '/images/headgrup.png' %}" alt="">
+        </div>
+        <!--悬浮搜索框s-->
+        <div class="floatNav">
+                <div class="w_1200">
+                    <ul class="fn-left">
+                        <li class="active">
+                            <a href="http://whybuyit.cn/index.php?r=index">首页</a>
+                        </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=4&amp;hot=0"> 居家日用</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=6&amp;hot=1"> 美食</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=2&amp;hot=2"> 母婴</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=3&amp;hot=3"> 美妆</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=1&amp;hot=4"> 女装</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=8&amp;hot=5"> 数码家电</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=7&amp;hot=6"> 文娱车品</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=10&amp;hot=7"> 内衣</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=14&amp;hot=8"> 家装家纺</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=5&amp;hot=9"> 鞋品</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=9&amp;hot=10"> 男装</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=12&amp;hot=11"> 配饰</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=13&amp;hot=12"> 户外运动</a>
+                            </li>
+                                                    <li class="">
+
+                                <a href="http://whybuyit.cn/index.php?r=l&amp;cid=11&amp;hot=13"> 箱包</a>
+                            </li>
+                                            </ul>
+                    <div class="fn-block">
+                        <form action="http://whybuyit.cn/index.php?r=l&amp;kw=%E6%9A%96%E5%AE%9D%E5%AE%9D" method="get">
+                            <input type="hidden" name="r" value="l">
+                            <input type="text" autocomplete="off" class="fn-src my-src-input" value="" name="kw" placeholder="暖宝宝">
+                            <span class="src-close-btn" style="right:55px;top: 3px;"></span>
+                            <button type="submit" class="srcBtn"></button>
+                        </form>
+                        <ul class="search-land" style="top:32px">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <p>关闭</p>
+                    </ul></div>
+                </div>
+            </div>
+        <!--悬浮搜索框e-->
+    </div>
+    <div id="baner" class="theme-bg-color-1">
+        <div id="nav">
+            <a data-dtk-satc="{desc:&#39;首页&#39;,name:&#39;CmsPcPartEvent&#39;}" href="http://whybuyit.cn/index.php?r=index/index" class="theme-hover-bg-color-8 iconM active">
+                首页
+            </a>
+
+            <a class="theme-hover-bg-color-8 iconM double_eleven_presell_entry" href="http://whybuyit.cn/index.php?r=l&amp;at10=1&amp;s=t&amp;u=1"><img src="{% static '/images/ad/s2.gif' %}"></a>
+            <a data-dtk-satc="{desc:&#39;好货精选&#39;,name:&#39;CmsPcPartEvent&#39;}" class="theme-hover-bg-color-8  " data-ca="index/index----l/index" href="http://whybuyit.cn/index.php?r=l">
+                        好货精选</a>
+            <a data-dtk-satc="{desc:&#39;疯抢榜&#39;,name:&#39;CmsPcPartEvent&#39;}" class="theme-hover-bg-color-8  " data-ca="index/index----p/index" href="http://whybuyit.cn/index.php?r=p">
+                        疯抢榜<!-- 榜单角标 -->
+            </a>
+            <a data-dtk-satc="{desc:&#39;9块9包邮&#39;,name:&#39;CmsPcPartEvent&#39;}" class="theme-hover-bg-color-8  " data-ca="index/index----nine/index" href="http://whybuyit.cn/index.php?r=nine">
+                        9块9包邮</a>
+            <a data-dtk-satc="{desc:&#39;咚咚抢&#39;,name:&#39;CmsPcPartEvent&#39;}" class="theme-hover-bg-color-8  " data-ca="index/index----ddq/index" href="http://whybuyit.cn/index.php?r=ddq">
+                        咚咚抢
+            </a>
+        </div>
+    </div>
+    <div id="dtk_mian">
+    {% block content %}{% endblock %}
+    </div>
+    <script>
+        // 工具栏加入收藏
+        function addFavorite() {
+            var url = window.location;
+            var title = document.title;
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.indexOf("msie 8") > -1) {
+                external.AddToFavoritesBar(url, title, '');//IE8
+            } else {
+                try {
+                    window.external.addFavorite(url, title);
+                } catch (e) {
+                    try {
+                        window.sidebar.addPanel(title, url, "");//firefox
+                    } catch (e) {
+                        layer.msg("加入收藏失败，请使用Ctrl+D进行添加");
+                    }
+                }
+            }
+        }
+
+
+    </script>
+
+
+    <ul class="float-tool">
+        <li onclick="shoucang(&#39;我的网站&#39;,location.href)"><img src="{% static '/images/sc.png' %}" alt=""><p>收藏</p></li>
+        <li class="ft-share"><img src="{% static '/images/share.png' %}" alt=""><p>分享</p>
+            <div class="share-platform">
+                <div class="share-platform-r">
+                     <div class="bshare-custom bdsharebuttonbox bdshare-button-style1-32"><div class="bsPromo bsPromo2"></div>
+                        <a title="分享到微信" class="bshare-weixin bds_weixin"></a>
+                        <a title="分享到新浪微博" class="bshare-sinaminiblog bds_tsina"></a>
+                        <a title="分享到QQ好友" class="bshare-qqim bds_sqq"></a>
+                        <a title="分享到QQ空间" class="bshare-qzone bds_qzone"></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <script type="text/javascript" charset="utf-8" src="{% static '/js/buttonLite.js' %}"></script>
+            <script type="text/javascript" charset="utf-8" src="{% static '/js/bshareC0.js' %}"></script>
+
+
+
+        </li>
+            <li><a href="http://whybuyit.cn/index.php?r=index/feedbackpc" target="_blank"><img src="{% static '/images/feedback.png' %}" alt=""><p>反馈</p></a></li>
+        <li class="to_top" onclick=" $(&#39;body,html&#39;).animate({scrollTop:0},1000);" style="display: none;"><img style="padding-top: 12px;" src="{% static '/images/top.png' %}" alt=""></li>
+    </ul>
+
+    <script type="text/javascript">
+        var kw_url = "/index.php?r=l&kw=%E6%9A%96%E5%AE%9D%E5%AE%9D";
+        var _url = "/index.php?r=index/kwarr";
+    </script>
+
+
+
+
+    <script src="{% static '/js/new_home.js' %}"></script>
+
+        <div id="footer" class="com-footer" style="height: auto">
+            <div class="footer-wrapper" style="padding: 45px 0 10px;">
+                <ul>
+                    <li>网站导航</li>
+                    <li><a href="http://whybuyit.cn/index.php?r=index/index">首页</a></li>
+                    <li><a href="http://whybuyit.cn/index.php?r=l">好货精选</a></li>
+                    <li><a href="http://whybuyit.cn/index.php?r=p">疯抢榜</a></li>
+                    <li><a href="http://whybuyit.cn/index.php?r=ddq">咚咚抢</a></li>
+                    <li><a href="http://whybuyit.cn/index.php?r=nine">9.9包邮</a></li>
+                </ul>
+                <p>为什么买它是一家中立的导购网站，网站中的商品信息均来自于互联网。如商品信息不同，可能是商品信息未及时更新，所有商品信息请以天猫/淘宝店铺内为准。</p>
+
+                            <div class="text">
+                    <span>版权所有 本站内容未经书面许可,禁止一切形式的转载</span>
+                    <span class="ml">© CopyRight&nbsp;2019</span>
+                    <a class="ml" href="http://whybuyit.cn/" target="_blank" rel="nofollow">
+                        为什么买它http://whybuyit.cn                </a>
+                    <a class="miitbeian ml" href="http://www.beian.miit.gov.cn/" target="_blank" rel="nofollow">
+                        京ICP备15003283号-2                </a>
+                    <a href="http://whybuyit.cn/index.php?r=index/feedbackpc" target="_blank" style="margin-left: 20px;text-decoration: underline;">我要反馈</a>
+                    <p class="ml" style="text-algin:center;margin: 15px auto;"></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./为什么买它_files/scrollTop2.js.下载"></script>
+</div>
+</body>
+</html>
